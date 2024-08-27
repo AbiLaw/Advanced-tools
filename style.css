@@ -92,7 +92,7 @@
     text-decoration: underline;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 600px) {
 h1, h2, h3, p {text-align: center;}
 
 
@@ -110,6 +110,12 @@ img {align-items: center;}
 .row {
     display: flex;
     flex-direction: column;
+}
+
+.navigation-links {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .email-link {font-size: 15px;}
