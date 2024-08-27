@@ -91,3 +91,30 @@
   .email-link:hover {
     text-decoration: underline;
   }
+
+  @media (max-width: 768px) {
+h1, h2, h3, p {text-align: center;}
+
+
+h1 {font-size: 48px;}
+
+h2 {font-size: 24px;}
+
+h3 {font-size: 16px;}
+
+p {font-size: 16px; 
+    line-height: 1;}
+
+img {align-items: center;}
+
+.row {
+    display: flex;
+    flex-direction: column;
+}
+
+.email-link {font-size: 15px;}
+
+
+  }
+
+  
